@@ -1,4 +1,8 @@
-a, b = float(input()), float(input())
-print(a + b)
-print(a - b)
-print(a * b)
+# Даны 2 действительных числа a и b. Получить их сумму, разность и произведение.
+
+a, b = float(input('Введите a: ')), float(input('Введите b: '))
+# float - вещественные числа (действительные)
+
+print('Сумма a и b: ', (a + b))
+print('Разность a и b: ', (a - b))
+print('Произведение a и b: ', (a * b))
